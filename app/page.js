@@ -66,6 +66,7 @@ const deleteExpense = async (id) => {
     <main className="flex min-h-screen flex-col items-center justify-between sm:p-24 p-4">
       <div className="z-10 max-w-5xl w-full items-center justify-between">
         <h1 className='text-4xl p4 text-center'>Xpenso</h1>
+        <p className='text-xs p4 text-center'>Simple Expenses Tracking App, By <span className="font-semibold text-teal-300">Zijja</span></p>
         <div className='p-4'>
           <form className='grid grid-cols-6 items-center text-black '>
             <input 
