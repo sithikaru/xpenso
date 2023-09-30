@@ -74,14 +74,14 @@ const deleteExpense = async (id) => {
             onChange={(e) => setnewExpense({ ...newExpense, name: e.target.value })}
             type='text'
             placeholder='Enter Expense'
-            className='col-span-3 border-r p-3 rounded-l-xl' 
+            className=' border col-span-3 border-r p-3 rounded-l-xl' 
             />
             <input 
             value={newExpense.amount}
             onChange={(e) => setnewExpense({ ...newExpense, amount: e.target.value })}
             type='number'
             placeholder='Enter $'
-            className='col-span-2 border-r p-3'
+            className='col-span-2 border border-r p-3'
             />
             <button 
             onClick={addExpense}
